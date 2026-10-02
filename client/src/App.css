@@ -1,0 +1,137 @@
+
+
+.reports-page {
+  min-height: 100vh;
+  background: #08090b !important;
+  color: #e5e7eb !important;
+}
+
+/* Main cards */
+.reports-page .bg-white {
+  background: #14161a !important;
+  color: #e5e7eb !important;
+  border: 1px solid #24272d !important;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25) !important;
+}
+
+/* Headings */
+.reports-page h1,
+.reports-page h2,
+.reports-page h3,
+.reports-page h4 {
+  color: #f3f4f6 !important;
+}
+
+/* Normal paragraphs */
+.reports-page p {
+  color: #a7adb7 !important;
+}
+
+/* Gray Tailwind text */
+.reports-page .text-gray-600,
+.reports-page .text-gray-500,
+.reports-page .text-gray-700 {
+  color: #a7adb7 !important;
+}
+
+
+
+.reports-page .bg-green-50 {
+  background: #10231a !important;
+  border: 1px solid #1d4932 !important;
+}
+
+.reports-page .bg-green-50 p,
+.reports-page .bg-green-50 span {
+  color: #b8d9c5 !important;
+}
+
+.reports-page .text-green-600 {
+  color: #4ade80 !important;
+}
+
+
+
+.reports-page .bg-red-50 {
+  background: #261517 !important;
+  border: 1px solid #4b2428 !important;
+}
+
+.reports-page .bg-red-50 p,
+.reports-page .bg-red-50 span {
+  color: #dfb5b8 !important;
+}
+
+.reports-page .text-red-600 {
+  color: #f87171 !important;
+}
+
+
+
+.reports-page .bg-yellow-50 {
+  background: #29230f !important;
+  border: 1px solid #51451d !important;
+}
+
+.reports-page .bg-yellow-50 p,
+.reports-page .bg-yellow-50 span {
+  color: #d8c98f !important;
+}
+
+.reports-page .text-yellow-600 {
+  color: #fbbf24 !important;
+}
+
+
+
+.reports-page .bg-purple-50 {
+  background: #21172d !important;
+  border: 1px solid #432c59 !important;
+}
+
+.reports-page .bg-purple-50 p,
+.reports-page .bg-purple-50 span {
+  color: #d0b9e8 !important;
+}
+
+.reports-page .text-purple-600 {
+  color: #c084fc !important;
+}
+
+
+
+.reports-page .bg-gray-100 {
+  background: #1c1f24 !important;
+  color: #cbd5e1 !important;
+  border: 1px solid #30343b !important;
+}
+
+/* Buttons */
+.reports-page .bg-blue-600 {
+  background: #2563eb !important;
+}
+
+.reports-page .bg-blue-600:hover {
+  background: #1d4ed8 !important;
+}
+
+/* Links */
+.reports-page a {
+  color: #60a5fa !important;
+}
+
+/* Smooth hover */
+.reports-page .bg-white,
+.reports-page .bg-green-50,
+.reports-page .bg-red-50,
+.reports-page .bg-yellow-50,
+.reports-page .bg-purple-50 {
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.reports-page .bg-white:hover {
+  border-color: #343942 !important;
+}
