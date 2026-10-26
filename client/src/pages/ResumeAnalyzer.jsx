@@ -60,13 +60,13 @@ const ResumeAnalyzer = () => {
 
       console.log("📄 Uploading resume:", file.name);
 
-      const response = await fetch(
-        "http://localhost:5000/api/resume/analyze",
-        {
-          method: "POST",
-          body: formData,
-        }
-      );
+    const response = await fetch(
+  "https://ai-interview-platform-99li.onrender.com/api/resume/analyze",
+  {
+    method: "POST",
+    body: formData,
+  }
+);
 
       const data = await response.json();
 
